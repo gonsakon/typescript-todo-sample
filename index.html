@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + TS</title>
+</head>
+
+<body>
+  <div id="app">
+    <!-- 用戶註冊和登入表單 -->
+    <div>
+      <input type="text" id="email" placeholder="電子郵件" value="gonsakon@gmail.com">
+      <input type="password" id="password" placeholder="密碼" value="123456">
+      <button id="register">註冊</button>
+      <button id="login">登入</button>
+    </div>
+
+    <!-- 代辦事項添加表單 -->
+    <div>
+      <input type="text" id="todoContent" placeholder="添加新的代辦事項">
+      <button id="addTodo">添加代辦事項</button>
+    </div>
+
+    <!-- 代辦事項顯示區域 -->
+    <ul id="todoList"></ul>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
